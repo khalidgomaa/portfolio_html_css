@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: hsl(245, 55%, 36%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 2px 40px;
+  }
+
+.container {
+    width: 800px;
+    
+    background-color: hsl(245, 55%, 36%);
+
+padding: 20px;
+border-radius: 5px;
+color: rgb(245, 248, 250);
+margin: auto;
+display: flex;
+}
+
+
+label {
+display: block;
+
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+input[type="radio"],
+select {
+margin-right: 10px;
+}
+
+select[multiple] {
+height: 100px;
+}
+
+
+.Submit{
+    background-color: #4CAF50;
+     border-radius: 10px;
+      padding: 10px 20px; 
+      text-align: center;
+       text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+}
+input[type="reset"]{
+    background-color: #f44336;
+    border-radius: 10px;
+
+  padding: 10px 20px;
+   text-align: center; 
+   text-decoration: none; 
+    display: inline-block; /*to respect padding top and bottom and to give it width  */
+ font-size: 16px;
+}
+
+.contact{
+  
+  width :40%;
+  margin: 15px;
+  color: #faf9fc;
+ 
+}
+ul{
+  list-style: none;
+}
+.social-media{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.fa-brands,.fa-solid{
+  color: #faf9fc;
+  font-size: 50px;
+
+}

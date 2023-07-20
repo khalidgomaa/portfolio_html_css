@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <style>
+       header {
+    background-color: #0d0629;
+    width: 250px;
+    color: #fff;
+    padding: 20px;
+   margin:20px auto;
+   text-align: center;
+   
+    border-radius:  10px 100px;
+    border-bottom: 10px solid rgb(15, 141, 153);
+    padding: 20px;
+    
+}
+#slider {
+  overflow: hidden;
+     text-align: center; 
+    width: 300px;
+    height: 200px;
+    margin: auto;
+ background-color: aquamarine;
+ margin-top:150px;
+ position: absolute ;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@keyframes slider {
+    0% {
+       transform: translateX(0px);
+   }
+   16% {
+       transform: translateX(0px);
+   }
+   32% {
+       transform: translateX(-300px);
+   }
+   49% {
+       transform: translateX(-600px);
+      
+   }
+   66% {
+       transform: translateX(-900px);
+   }
+   83% {
+       transform: translateX(-1200px);
+   }
+   100% {
+       transform: translateX(-1500px);
+   }
+
+}
+
+
+
+
+.container{
+   
+    display: flex;
+    animation: slider 10s infinite;
+    
+  
+}
+
+    </style>
+</head>
+<body>
+   <header>
+<h1>Our Gallary</h1>
+   </header>
+
+    
+            <div id="slider" >
+        <div class="container">
+            <img src="./projects photo/cruds.PNG" alt="">
+            <img src="./projects photo/drawing by html css .PNG" alt="">
+            <img src="./projects photo/Photo Editor.PNG" alt="">
+            <img src="./projects photo/portofolio.PNG" alt="">
+            <img src="./projects photo/scroling animation.PNG" alt="">
+            <img src="./projects photo/to do list project.PNG" alt="">
+           
+        </div >
+            
+</body>
+</div>
+</body>
+</html>

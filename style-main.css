@@ -1,0 +1,143 @@
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /*  for the body */
+  body {
+            
+    font-family: Arial, sans-serif;
+  
+}
+
+
+/* Style for the header */
+header {
+    background-color: #0d0629;
+    color: #fff;
+    padding: 20px;
+    border-radius:  10px 100px;
+    border-bottom: 10px solid rgb(15, 141, 153);
+    display: flex;
+    
+   
+    
+}
+h1{
+    /* width: 366px; */
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;  /*to just still on the same line just increase the width */
+    margin: auto;
+    /* border-right: 2px solid hsl(0, 0%, 100%,.8); */
+    height: 50px;
+animation:typing 3s  both ease;
+font-style: italic;
+}
+@keyframes typing {
+    from{
+width: 0;
+    }
+    to{
+width: 410px;
+    }
+}
+
+/*  the navigation links */
+nav {
+    background-color: #120251;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+
+}
+
+nav a {
+    color: #080707;
+font-size: larger;
+font-weight:bold;
+font-style: italic;
+    background-color: #d4d4d9;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition:  0.7s ease;
+}
+
+nav a:hover {
+    background-color: #301687;
+    color: #fff;
+    
+}
+
+/* Style for the main content */
+main {
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/* Style for the sidebar */
+aside {
+    background-color: #0d0629;
+color: #fcfcfd;
+    padding: 20px;
+    width: 20%;
+   float: right;
+   min-height: 500px;
+   text-align: center;
+  
+}
+
+/* Style for the sidebar on the left */
+.left-aside {
+   float: left; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.left-aside p{
+    margin: auto;
+    background-color: #561160;
+    padding: 10px;
+    
+}
+
+
+iframe {
+    width: 60%;
+   min-height: 500px;
+
+padding: 10px;
+   border: none;
+}
+footer{
+    background:#f4f4f4 ;
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+}
+
+.social-media{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+

@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.servics{
+    text-align: center;
+  margin: 20px;
+  color: aliceblue;
+  
+  }
+  
+  .servics-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .info{
+    padding: 10px;
+  }
+  h2{
+    color: antiquewhite;
+  }
+  .card{
+    width: 25%;
+
+    background-color: rgb(27, 6, 82);
+  box-shadow: 10px 10px 10px rgb(35, 5, 79);
+  border-radius: 20px;
+  }
+  .card:hover{
+    transform: scale(1.25,1.25);
+    transition: 1.5s ease;
+  }
+  .fas{
+   font-size: 100px;
+  color: aliceblue;
+  }
